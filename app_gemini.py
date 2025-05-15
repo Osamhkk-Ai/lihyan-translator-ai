@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 def run_gemini_app():
     # إعداد المفتاح
-    GOOGLE_API_KEY = "AIzaSyCPjAE_mjkPZ7CF4om2VwTal68Ov-WTo1c"
+    GOOGLE_API_KEY = "AIzaSyCPjAE_mjkPZ7CF4om68Ov-WTo1c"
     os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
     st.title("📍 Landmark Identifier | التعرف على المعالم")
